@@ -5,4 +5,4 @@ router = Router()
 
 @router.message(F.text == "👤 Мой профиль")
 async def profile(message: Message):
-    await message.answer("Тут будет твой профиль")
+    await message.answer("👤 Тут будет твой профиль")
